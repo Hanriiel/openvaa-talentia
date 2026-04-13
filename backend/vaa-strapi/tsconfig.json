@@ -3,7 +3,8 @@
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": ".",
-    "allowJs": true
+    "allowJs": true,
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "./",
@@ -20,5 +21,9 @@
     "src/plugins/**",
     "eslint.config.mjs"
   ],
-  "references": [{ "path": "../../packages/app-shared/tsconfig.cjs.json" }]
+  "references": [
+    {
+      "path": "../../packages/app-shared/tsconfig.cjs.json"
+    }
+  ]
 }

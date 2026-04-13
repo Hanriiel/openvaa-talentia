@@ -1,7 +1,7 @@
 services:
   # LocalStack configuration: https://docs.localstack.cloud/references/configuration/
   awslocal:
-    image: localstack/localstack
+    image: localstack/localstack:4.14
     ports:
       - "127.0.0.1:4566:4566"
     environment:
@@ -90,8 +90,7 @@ services:
       - "5432:5432"
     restart: always
     healthcheck:
-      test:
-        ["CMD-SHELL", "pg_isready -U ${DATABASE_USERNAME} -d ${DATABASE_NAME}"]
+      test: [ "CMD-SHELL", "pg_isready -U ${DATABASE_USERNAME} -d ${DATABASE_NAME}" ]
       interval: 30s
       timeout: 10s
       retries: 5

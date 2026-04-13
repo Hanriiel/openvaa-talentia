@@ -3,6 +3,7 @@
 .env
 !.env.example
 node_modules
+certs/
 
 # Claude Code local settings
 .claude/*.local.json

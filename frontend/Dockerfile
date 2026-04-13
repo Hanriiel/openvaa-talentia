@@ -1,9 +1,13 @@
-FROM node:20.18.1-alpine AS base
+FROM node:20 AS base
+
+COPY certs/cisco-umbrella-root.crt /usr/local/share/ca-certificates/cisco-umbrella-root.crt
+RUN apt-get update && apt-get install -y ca-certificates && update-ca-certificates
 
 WORKDIR /opt
 
 # Setup env variable for yarn
 ENV YARN_VERSION=4.6
+ENV NODE_EXTRA_CA_CERTS=/usr/local/share/ca-certificates/cisco-umbrella-root.crt
 
 # install and use yarn 4.x
 RUN corepack enable && corepack prepare yarn@${YARN_VERSION}
