@@ -16,7 +16,7 @@ export const staticSettings: StaticSettings = {
   },
   colors: {
     light: {
-      primary: '#2546a8',
+      primary: '#9561a8',
       secondary: '#666666',
       accent: '#0a716b',
       neutral: '#333333',
