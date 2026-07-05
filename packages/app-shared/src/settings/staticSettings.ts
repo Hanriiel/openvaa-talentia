@@ -22,7 +22,7 @@ export const staticSettings: StaticSettings = {
       neutral: '#333333',
       'base-100': '#ffffff',
       'base-200': '#e8f5f6',
-      'base-300': '#d1ebee',
+      'base-300': '#fff9e7',
       warning: '#a82525',
       'line-color': '#d9d9d9'
     },
