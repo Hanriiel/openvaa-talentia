@@ -16,12 +16,12 @@ export const staticSettings: StaticSettings = {
   },
   colors: {
     light: {
-      primary: '#9561a8',
+      primary: '#945ea8',
       secondary: '#666666',
       accent: '#0a716b',
       neutral: '#333333',
       'base-100': '#ffffff',
-      'base-200': '#e8f5f6',
+      'base-200': '#fff2cf',
       'base-300': '#fff9e7',
       warning: '#a82525',
       'line-color': '#d9d9d9'
