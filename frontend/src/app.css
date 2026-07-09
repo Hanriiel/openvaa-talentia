@@ -7,6 +7,7 @@
     /* We need to explicitly set this, because we're not using the default `sans` font utility. */
     @apply hyphens-auto font-base;
   }
+
   /* Disable hyphenation on these elements */
   input,
   select,
@@ -21,39 +22,51 @@
   .btn {
     @apply hyphens-none;
   }
+
   body {
     @apply bg-base-100 text-md;
   }
+
   h1 {
     @apply text-center text-2xl font-bold;
   }
+
   h2 {
     @apply text-xl font-bold;
   }
+
   h3 {
     @apply text-lg font-bold;
   }
+
   h4 {
     @apply text-base font-bold;
   }
+
   p {
     @apply mb-16;
   }
+
   p:last-child {
     @apply mb-0;
   }
+
   ol {
     @apply list-outside list-decimal pl-lg;
   }
+
   ul {
     @apply list-outside list-disc pl-lg;
   }
+
   hgroup p {
     @apply my-sm text-center first:mt-0;
   }
+
   legend {
     @apply w-full;
   }
+
   a:link:not(.btn),
   a:active:not(.btn),
   a:visited:not(.btn),
@@ -61,9 +74,11 @@
   a[onclick]:not(.btn) {
     @apply text-primary;
   }
+
   a[href^='mailto:'] {
     @apply hyphens-none;
   }
+
   input[type='number'] {
     -moz-appearance: textfield;
   }
@@ -79,20 +94,25 @@
     counter-reset: steps;
     @apply relative list-none pl-[2rem];
   }
+
   .list-circled li {
     counter-increment: steps;
     @apply mt-12 first:mt-0;
   }
+
   .circled {
     @apply absolute left-0 -mt-2 grid h-24 w-24 place-items-center rounded-full bg-base-300 text-md;
   }
+
   .circled-on-shaded {
     @apply bg-base-100;
   }
+
   .list-circled li::before {
     content: counter(steps);
     @apply circled;
   }
+
   .list-circled-on-shaded li::before {
     @apply circled-on-shaded;
   }
@@ -110,16 +130,20 @@
   .prose {
     @apply leading-lg;
   }
+
   .prose p {
     @apply mb-lg;
   }
+
   .prose h2 {
     @apply mb-md mt-xl;
   }
+
   .prose h3,
   .prose h4 {
     @apply mb-md mt-[1.75rem];
   }
+
   .prose h5,
   .prose h6 {
     @apply mb-md mt-lg;
@@ -168,10 +192,11 @@
    * To prevent iOS Safari auto-zoom
    */
   @supports (-webkit-touch-callout: none) {
+
     .input,
     .textarea,
     .select {
-      @apply text-[max(16px,_0.9375rem)];
+      font-size: (max16px, 0.9375rem);
     }
   }
 
@@ -179,9 +204,11 @@
   .btn {
     @apply px-10 font-normal;
   }
+
   .btn-ghost {
     @apply text-primary;
   }
+
   .btn-ghost.btn-disabled,
   .btn-ghost[disabled],
   .btn-ghost:disabled {
