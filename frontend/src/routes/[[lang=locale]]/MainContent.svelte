@@ -53,7 +53,8 @@ The layout varies slightly based on the presence of a video player.
 </svelte:head>
 
 <div
-  {...concatClass($$restProps, 'flex flex-grow flex-col items-center gap-y-lg pb-safelgb pl-safelgl pr-safelgr pt-lg')}>
+  {...concatClass($$restProps, 'flex flex-grow flex-col items-center gap-y-lg pb-safelgb pl-safelgl pr-safelgr pt-lg')}
+  class:flex-grow={!$$slots.hero}>
   <!-- Note -->
   {#if $$slots.note}
     <div class={noteClass} role={noteRole}>
@@ -61,7 +62,7 @@ The layout varies slightly based on the presence of a video player.
     </div>
   {/if}
 
-  <div class="flex w-full flex-grow flex-col items-stretch justify-center sm:items-center">
+  <div class="flex w-full flex-col items-stretch justify-center sm:items-center">
     <!-- Hero image -->
     {#if !$hasVideo}
       <slot name="hero" />
