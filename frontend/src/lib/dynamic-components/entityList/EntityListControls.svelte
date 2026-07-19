@@ -170,6 +170,7 @@ TODO: Consider moving the tracking events away from the component and just addin
         <Button
           on:click={openFilters}
           icon="filter"
+          color="neutral"
           iconPos="left"
           class="!w-auto"
           text={$t('entityFilters.filterButtonLabel')} />

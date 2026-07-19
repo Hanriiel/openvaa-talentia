@@ -38,6 +38,7 @@ export type StaticSettings = {
   readonly colors: {
     readonly light: {
       readonly primary: string;
+      readonly 'primary-content': string;
       readonly secondary: string;
       readonly accent: string;
       readonly neutral: string;
@@ -49,6 +50,7 @@ export type StaticSettings = {
     };
     readonly dark: {
       readonly primary: string;
+      readonly 'primary-content': string;
       readonly secondary: string;
       readonly accent: string;
       readonly neutral: string;

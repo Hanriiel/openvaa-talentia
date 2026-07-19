@@ -206,7 +206,11 @@
   }
 
   .btn-ghost {
-    @apply text-primary;
+    @apply text-base-content;
+  }
+
+  .btn-ghost:hover {
+    color: #e50e63;
   }
 
   .btn-ghost.btn-disabled,

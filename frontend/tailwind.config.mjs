@@ -222,7 +222,7 @@ export default {
           primary: getColor('primary', '#2546a8'), // = success
           secondary: getColor('secondary', '#666666'),
           accent: getColor('accent', '#0a716b'), // = info
-          neutral: getColor('neutral', '#333333'),
+          neutral: getColor('neutral', '#231f20'),
           'base-100': getColor('base-100', '#ffffff'),
           'base-200': getColor('base-200', '#e8f5f6'), // 50% tint of base-300 on base-100
           'base-300': getColor('base-300', '#d1ebee'),
@@ -231,7 +231,7 @@ export default {
           warning: getColor('warning', '#a82525'), // = error
           error: getColor('warning', '#a82525'), // = warning
           'base-content': getColor('neutral', '#333333'), // = neutral
-          'primary-content': getColor('base-100', '#ffffff'), // = base-100
+          'primary-content': getColor('primary-content', '#231f20'),
           'secondary-content': getColor('base-100', '#ffffff'), // = base-100
           'accent-content': getColor('base-100', '#ffffff'), // = base-100
           'info-content': getColor('base-100', '#ffffff'), // = base-100
@@ -261,7 +261,7 @@ export default {
           warning: getColor('warning', '#e16060', 'dark'), // = error
           error: getColor('warning', '#e16060', 'dark'), // = warning
           'base-content': getColor('neutral', '#cccccc', 'dark'), // = neutral
-          'primary-content': getColor('base-100', '#000000', 'dark'),
+          'primary-content': getColor('primary-content', '#000000', 'dark'),
           'secondary-content': getColor('base-100', '#000000', 'dark'),
           'accent-content': getColor('base-100', '#000000', 'dark'),
           'info-content': getColor('base-100', '#000000', 'dark'),
