@@ -93,7 +93,7 @@ You should not try to use a variant and customize at the same time.
   // 2. Variant-defined classes
   switch (variant) {
     case 'read-more':
-      titleClasses += ' !px-0 text-primary';
+      titleClasses += ' !px-0 text-neutral';
       contentClasses += ' !px-0';
       break;
     case 'category':

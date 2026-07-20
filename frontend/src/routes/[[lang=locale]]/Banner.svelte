@@ -69,6 +69,7 @@ Accesses `AppContext` and optionally `VoterContext`.
       href={$getRoute('Results')}
       disabled={resultsAvailable == null ? true : !$resultsAvailable}
       variant="responsive-icon"
+      color="neutral"
       icon="results"
       text={$t('results.title.results')} />
   {/if}
