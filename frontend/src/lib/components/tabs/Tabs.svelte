@@ -43,8 +43,8 @@ Show a tab title bar that can be used to switch between different tabs.
   {#each tabs as tab, index}
     <li
       class="btn btn-outline m-0 h-[2.2rem] min-h-[2.2rem] w-auto flex-grow truncate rounded-sm px-12 text-md font-bold
-       hover:bg-base-100 hover:text-primary focus:bg-base-100 focus:text-primary"
-      class:text-primary={index !== activeIndex}
+       hover:bg-base-100 hover:text-primary focus:bg-base-100"
+      class:text-[#9561a8]={index === activeIndex}
       class:bg-base-100={index === activeIndex}
       tabindex="0"
       role="tab"
