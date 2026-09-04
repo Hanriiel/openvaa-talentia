@@ -156,7 +156,7 @@ This is a dynamic component, because it accesses the `dataRoot` and other proper
   const gridClasses = 'grid gap-md';
   let classes = `vaa-card relative ${gridClasses}`;
   if (variant !== 'subcard') {
-    classes += ' rounded-md bg-base-100 px-md py-16';
+    classes += ` rounded-md px-md py-16 ${variant === 'list' ? 'bg-base-200' : 'bg-base-100'}`;
     if (action) classes += ' text-neutral transition-shadow ease-in-out hover:shadow-xl';
   }
 </script>
