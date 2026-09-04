@@ -1,63 +1,58 @@
-# Talentia Voting Advice Application
+# OpenVAA Talentia
 
-This project is a customized Voting Advice Application (VAA) developed for Talentia, built using the OpenVAA open-source platform.
+This repository contains a customized Voting Advice Application (VAA) for Talentia, based on the OpenVAA open-source platform.
 
 ## Overview
 
-The goal of this project is to adapt the OpenVAA platform for Talentia’s use case, particularly for Finnish parliamentary elections (Eduskuntavaalit 2026).
+The application adapts OpenVAA for Talentia's elections and voting advice needs.
 
-The project focuses on:
-- understanding and adapting the OpenVAA data model
-- managing election, candidate, and question data via Strapi
-- integrating external survey data (e.g. Zeff)
-- building a functional and maintainable VAA solution
+The implementation includes:
+
+- a voter-facing Voting Advice Application
+- election, candidate and question data managed with Strapi
+- import of candidate and election data from external sources
+- Talentia-specific content, visual customization and configuration
+- OpenVAA's matching and data-processing functionality
+
+Candidate responses can be collected externally and imported into the application. The implementation does not require OpenVAA's candidate application.
 
 ## Background
 
-The project is developed as part of an internship for Talentia. It is based on the OpenVAA platform, which provides a flexible foundation for building Voting Advice Applications.
+The project is based on the OpenVAA platform, an open-source framework for building Voting Advice Applications.
 
-Original OpenVAA repository:  
+Original OpenVAA repository:
+
 https://github.com/OpenVAA/voting-advice-application
 
-## Tech Stack
+OpenVAA documentation:
 
-- **Frontend:** React (OpenVAA)
-- **Backend:** Strapi (Headless CMS)
+https://openvaa.org/
+
+## Technology
+
+The application uses the technologies and monorepo architecture provided by OpenVAA. Key components include:
+
+- **Frontend:** Svelte / SvelteKit
+- **Backend:** Strapi (headless CMS)
 - **Database:** PostgreSQL
-- **Infrastructure:** Docker & Docker Compose
-- **Package management:** Yarn (monorepo)
+- **Infrastructure:** Docker and Docker Compose
+- **Package management:** Yarn
+- **Unit testing:** Vitest
 
-## Project Structure
+## Repository Structure
 
-This repository is based on the OpenVAA monorepo structure, including:
+The repository follows the OpenVAA monorepo structure. The main areas relevant to the Talentia implementation include:
 
-- `frontend/` – VAA user interface
-- `backend/vaa-strapi/` – Strapi backend and data model
-- `packages/` – shared logic and data handling
+- `frontend/` – voter-facing application and Talentia-specific UI customization
+- `backend/vaa-strapi/` – Strapi backend, content management and data model
+- `packages/` – shared OpenVAA packages and application logic
 
-## Current Status
+## Data and Content
 
-The project is currently in the early phase, focusing on:
-- understanding the system architecture
-- setting up the development environment
-- exploring and simplifying the data model
+Election-related content is managed through Strapi and imported data sources.
 
-## Future Work
+The repository contains application code and configuration. Production data, credentials, secrets and other environment-specific information are managed separately from the source code.
 
-Planned next steps include:
-- defining a minimal dataset for a single election
-- implementing data import from external sources (e.g. Zeff)
-- customizing the frontend for Talentia’s needs
-- refining the data model and relationships
+## OpenVAA
 
-## Notes
-
-This repository is a fork of the OpenVAA project and is being adapted to support Talentia-specific requirements. The implementation may diverge from the original project as customization progresses.
-
----
-
-## About OpenVAA (Original Project)
-
-OpenVAA is a comprehensive open-source framework for building configurable [Voting Advice Applications](https://openvaa.org/publishers-guide/what-are-vaas/intro) (VAAs). It's designed to work in any election context and is fully localisable, accessible, modular and free to use.
-
-OpenVAA was built for two reasons: to offer a transparent alternative for proprietary VAAs, and to kickstart development of more and better VAAs. OpenVAA is built by developers and researchers and maintained by a [Finnish non-profit](https://openvaa.org/about/association) of the same name.
+This project is a customized implementation of OpenVAA. For general information about OpenVAA's architecture, development and deployment, refer to the upstream OpenVAA documentation and repository.
