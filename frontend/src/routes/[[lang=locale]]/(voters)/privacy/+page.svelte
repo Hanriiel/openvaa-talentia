@@ -39,7 +39,7 @@ Displays information about the privacy policy of the app as well as the possible
   </figure>
 
   <HeadingGroup slot="heading">
-    <PreHeading class="text-primary">{$t('dynamic.appName')}</PreHeading>
+    <PreHeading class="text-neutral">{$t('dynamic.appName')}</PreHeading>
     <h1>{$t('privacy.title')}</h1>
   </HeadingGroup>
 
