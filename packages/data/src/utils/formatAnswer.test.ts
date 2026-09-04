@@ -21,7 +21,7 @@ describe('formatDateAnswer', () => {
   test('Should return the formatted date string using the default format when question.format is undefined', () => {
     const date = new Date(2023, 9, 5); // October 5, 2023
     const question = {} as DateQuestion; // No format provided
-    const result = formatDateAnswer({ question, value: date });
+    const result = formatDateAnswer({ locale: 'en-US', question, value: date });
     expect(result).toBe('10/5/2023');
   });
   test('Should return the formatted date string using the specified locale and format from question.format', () => {
