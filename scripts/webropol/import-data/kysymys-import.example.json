@@ -1,0 +1,67 @@
+{
+    "questions": [
+        {
+            "externalId": "q-esimerkki-1",
+            "order": 1,
+            "required": false,
+            "entityType": "candidate",
+            "text": {
+                "fi": "Ensimmäinen esimerkkikysymys."
+            },
+            "shortName": {
+                "fi": "Esimerkki 1"
+            },
+            "info": {
+                "fi": "Ensimmäisen kysymyksen taustoitus."
+            },
+            "questionType": {
+                "externalId": "Likert-5"
+            },
+            "category": {
+                "externalId": "cat-esimerkki-1"
+            }
+        },
+        {
+            "externalId": "q-esimerkki-2",
+            "order": 2,
+            "required": false,
+            "entityType": "candidate",
+            "text": {
+                "fi": "Toinen esimerkkikysymys."
+            },
+            "shortName": {
+                "fi": "Esimerkki 2"
+            },
+            "info": {
+                "fi": "Toisen kysymyksen taustoitus."
+            },
+            "questionType": {
+                "externalId": "Likert-5"
+            },
+            "category": {
+                "externalId": "cat-esimerkki-1"
+            }
+        },
+        {
+            "externalId": "q-esimerkki-3",
+            "order": 3,
+            "required": false,
+            "entityType": "candidate",
+            "text": {
+                "fi": "Kolmas esimerkkikysymys."
+            },
+            "shortName": {
+                "fi": "Esimerkki 3"
+            },
+            "info": {
+                "fi": "Kolmannen kysymyksen taustoitus."
+            },
+            "questionType": {
+                "externalId": "Likert-5"
+            },
+            "category": {
+                "externalId": "cat-esimerkki-2"
+            }
+        }
+    ]
+}

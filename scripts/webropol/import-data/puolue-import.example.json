@@ -1,0 +1,16 @@
+{
+    "parties": [
+        {
+            "externalId": "esimerkkipuolue-1",
+            "name": {
+                "fi": "Esimerkkipuolue 1"
+            }
+        },
+        {
+            "externalId": "esimerkkipuolue-2",
+            "name": {
+                "fi": "Esimerkkipuolue 2"
+            }
+        }
+    ]
+}

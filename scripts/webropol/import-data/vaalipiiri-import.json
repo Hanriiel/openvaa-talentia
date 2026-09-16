@@ -1,0 +1,82 @@
+{
+    "constituencies": [
+        {
+            "externalId": "01-helsinki",
+            "name": {
+                "fi": "Helsingin vaalipiiri"
+            }
+        },
+        {
+            "externalId": "02-uusimaa",
+            "name": {
+                "fi": "Uudenmaan vaalipiiri"
+            }
+        },
+        {
+            "externalId": "03-varsinais-suomi",
+            "name": {
+                "fi": "Varsinais-Suomen vaalipiiri"
+            }
+        },
+        {
+            "externalId": "04-satakunta",
+            "name": {
+                "fi": "Satakunnan vaalipiiri"
+            }
+        },
+        {
+            "externalId": "05-ahvenanmaa",
+            "name": {
+                "fi": "Ahvenanmaan maakunnan vaalipiiri"
+            }
+        },
+        {
+            "externalId": "06-hame",
+            "name": {
+                "fi": "Hämeen vaalipiiri"
+            }
+        },
+        {
+            "externalId": "07-pirkanmaa",
+            "name": {
+                "fi": "Pirkanmaan vaalipiiri"
+            }
+        },
+        {
+            "externalId": "08-kaakkois-suomi",
+            "name": {
+                "fi": "Kaakkois-Suomen vaalipiiri"
+            }
+        },
+        {
+            "externalId": "09-savo-karjala",
+            "name": {
+                "fi": "Savo-Karjalan vaalipiiri"
+            }
+        },
+        {
+            "externalId": "10-vaasa",
+            "name": {
+                "fi": "Vaasan vaalipiiri"
+            }
+        },
+        {
+            "externalId": "11-keski-suomi",
+            "name": {
+                "fi": "Keski-Suomen vaalipiiri"
+            }
+        },
+        {
+            "externalId": "12-oulu",
+            "name": {
+                "fi": "Oulun vaalipiiri"
+            }
+        },
+        {
+            "externalId": "13-lappi",
+            "name": {
+                "fi": "Lapin vaalipiiri"
+            }
+        }
+    ]
+}
