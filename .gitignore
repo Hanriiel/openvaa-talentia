@@ -16,3 +16,12 @@ certs/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+localstack-data/
+
+scripts/webropol/.env
+scripts/webropol/Eduskuntavaalit_Perusraportti.csv
+scripts/webropol/import-data/candidates_import.json
+
+# Licensed fonts
+frontend/static/fonts/
