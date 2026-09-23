@@ -122,6 +122,10 @@ QUESTION_MAP = {
         "externalId": "q-ammatti",
         "infoColumn": None
     },
+    "Koulutus": {
+    "externalId": "q-koulutus",
+    "infoColumn": None
+},
     "Esittely": {
         "externalId": "q-esittely",
         "infoColumn": None
