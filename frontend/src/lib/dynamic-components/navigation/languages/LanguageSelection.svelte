@@ -25,8 +25,11 @@ A template part that language selection options for the navigation menu if these
   const { getRoute, locale: currentLocale, locales, t } = getAppContext();
 </script>
 
+<!-- Kielivalinta poistettu Talentian vaalikoneesta.
+     Ota alla oleva lohko uudelleen käyttöön, jos monikielisyys halutaan myöhemmin. -->
+
 <!-- Only show the language selection if there are multiple locales to choose from -->
-{#if $locales.length > 1}
+<!-- {#if $locales.length > 1}
   <NavGroup title={$t('common.language.select')}>
     {#each $locales as locale}
       <NavItem
@@ -37,4 +40,4 @@ A template part that language selection options for the navigation menu if these
         disabled={locale === $currentLocale} />
     {/each}
   </NavGroup>
-{/if}
+{/if} -->
