@@ -25,3 +25,6 @@ scripts/webropol/import-data/candidates_import.json
 
 # Licensed fonts
 frontend/static/fonts/
+
+# Local database dumps
+*.dump
