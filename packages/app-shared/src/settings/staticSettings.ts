@@ -41,9 +41,9 @@ export const staticSettings: StaticSettings = {
     }
   },
   font: {
-    name: 'Akko Pro',
-    url: '/fonts/akko-pro.css',
-    style: 'sans'
+    name: 'Roboto Serif',
+    url: '/fonts/roboto-serif.css',
+    style: 'serif'
   },
   supportedLocales: [
     {
