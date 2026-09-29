@@ -127,9 +127,17 @@ Accesses `AppContext` and renders the dynamic `Banner` component.
     transition: background-color 0.5s ease;
   }
 
+  @media (min-width: 641px) {
+    .prominent-top-bar-with-background {
+      background-size: auto calc(100% - 3rem);
+      background-position: center bottom;
+    }
+  }
+
   @media (max-width: 640px) {
     .prominent-top-bar-with-background {
       background-size: calc(100% - 2rem) auto;
+      min-height: 280px;
     }
   }
 </style>
