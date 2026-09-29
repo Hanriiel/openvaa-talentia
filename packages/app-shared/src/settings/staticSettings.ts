@@ -41,9 +41,9 @@ export const staticSettings: StaticSettings = {
     }
   },
   font: {
-    name: 'Roboto Serif',
-    url: '/fonts/roboto-serif.css',
-    style: 'serif'
+    name: 'Open Sans',
+    url: '/fonts/open-sans.css',
+    style: 'sans'
   },
   supportedLocales: [
     {
