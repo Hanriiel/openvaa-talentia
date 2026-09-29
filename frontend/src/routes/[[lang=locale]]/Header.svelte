@@ -126,4 +126,10 @@ Accesses `AppContext` and renders the dynamic `Banner` component.
     background-color: var(--background-color);
     transition: background-color 0.5s ease;
   }
+
+  @media (max-width: 640px) {
+    .prominent-top-bar-with-background {
+      background-size: calc(100% - 2rem) auto;
+    }
+  }
 </style>
