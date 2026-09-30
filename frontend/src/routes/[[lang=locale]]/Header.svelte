@@ -137,7 +137,8 @@ Accesses `AppContext` and renders the dynamic `Banner` component.
   @media (max-width: 640px) {
     .prominent-top-bar-with-background {
       background-size: calc(100% - 2rem) auto;
-      min-height: 280px;
+      background-position: center bottom;
+      min-height: 210px;
     }
   }
 </style>
