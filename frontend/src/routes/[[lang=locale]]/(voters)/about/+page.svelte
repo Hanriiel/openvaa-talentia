@@ -37,7 +37,7 @@ Displays information about the application.
   </figure>
 
   <HeadingGroup slot="heading">
-    <PreHeading class="text-primary">{$t('dynamic.appName')}</PreHeading>
+    <PreHeading class="text-[#9561a8]">{$t('dynamic.appName')}</PreHeading>
     <h1>{$t('about.title')}</h1>
   </HeadingGroup>
 
