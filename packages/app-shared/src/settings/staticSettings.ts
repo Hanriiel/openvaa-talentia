@@ -42,7 +42,7 @@ export const staticSettings: StaticSettings = {
   },
   font: {
     name: 'Open Sans',
-    url: '/fonts/open-sans.css',
+    url: '/fonts/open-sans/open-sans.css',
     style: 'sans'
   },
   supportedLocales: [
