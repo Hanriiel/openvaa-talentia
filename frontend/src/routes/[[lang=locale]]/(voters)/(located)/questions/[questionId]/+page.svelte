@@ -111,7 +111,7 @@ Display a question for answering.
   function handleAnswer({ question, value }: { question: AnyQuestionVariant; value?: unknown }): void {
     disabled = true;
     answers.setAnswer(question.id, value);
-    setTimeout(handleJump, DELAY.md);
+    setTimeout(handleJump, 1200);
   }
 
   function handleDelete() {
