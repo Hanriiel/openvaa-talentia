@@ -37,7 +37,7 @@ The frontpage of the app for voters.
   });
 </script>
 
-<MainContent title={$t('dynamic.appName')}>
+<MainContent title="10 kysymystä sosiaalialasta ja varhaiskasvatuksesta">
   <Button variant="main" href={$getRoute('Intro')} text={$t('dynamic.frontPage.startButton')} />
 
   <p class="mt-lg text-center">
