@@ -50,70 +50,48 @@ CONSTITUENCY_MAP = {
     "Lappi": "13-lappi"
 }
 QUESTION_MAP = {
-    "Sosiaalipalvelujen rahoitusta tulee lisätä, vaikka se kasvattaisi julkisia menoja.": {
-        "externalId": "q-sosiaalipalvelujen-rahoitus",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle"
-    },
-    "Lastensuojelun asiakkuuden kynnystä ei tule nostaa nykyisestä.": {
-        "externalId": "q-lastensuojelun-kynnys",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.1"
-    },
-    "Jokaisella sosiaalihuollon asiakkaalla tulee olla oikeus nimettyyn omatyöntekijään.": {
-        "externalId": "q-omatyöntekijä",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.2"
-    },
-    "Sosiaalipalvelujen saatavuuden tulee olla mahdollisimman yhdenmukaista koko Suomessa.": {
-        "externalId": "q-yhdenvertaiset-palvelut",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.3"
-    },
-    "Sosiaalialan henkilöstömitoituksista tulee säätää nykyistä tarkemmin laissa.": {
-        "externalId": "q-henkilostomitoitus",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.4"
-    },
-    "Työntekijälle tulee säätää nykyistä vahvempi oikeussuoja tilanteissa, joissa hän ilmoittaa työssään havaitsemistaan epäkohdista.": {
-        "externalId": "q-ilmoitusvelvollisuus",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.5"
-    },
     "Hyvinvointialueiden tulee vähentää ostopalveluiden käyttöä ja tuottaa palvelut pääosin itse.": {
         "externalId": "q-ostopalvelut",
+        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle"
+    },
+    "Yritysten yhteisöveron alentamisesta tulee luopua, jos sillä voidaan välttää sosiaalihuollon leikkauksia.": {
+        "externalId": "q-yhteisovero-sosiaalihuolto",
+        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.1"
+    },
+    "Hyvinvointialueiden pitäisi saada enemmän rahoitusta, jos alueella on paljon köyhyyttä, työttömyyttä ja sosiaalipalvelujen tarvetta.": {
+        "externalId": "q-rahoitus-sosiaalinen-tarve",
+        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.2"
+    },
+    "Nykyinen työntekijän oikeussuoja epäkohdasta ilmoittamistilanteissa on riittävä.": {
+        "externalId": "q-oikeussuoja-epakohdat",
+        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.3"
+    },
+    "Sosiaalihuollon ammattilaisten tulee voida nykyistä laajemmin toimia toistensa tehtävissä.": {
+        "externalId": "q-ammattiryhmien-tehtavat",
+        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.4"
+    },
+    "Sosiaalihuollossa tulee lailla rajoittaa, kuinka monta asiakasta yhdellä sosiaalityöntekijällä voi olla.": {
+        "externalId": "q-asiakasmitoitus",
+        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.5"
+    },
+    "Sosionomi (YAMK) -tutkinnon tulee antaa kelpoisuus päiväkodin johtajan tehtävään ilman erillisiä 60 opintopisteen kasvatustieteen lisäopintoja.": {
+        "externalId": "q-yamk-paivakodin-johtaja",
         "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.6"
     },
-    "Sosiaali- ja terveyspalveluissa työskenteleviltä tulee edellyttää nykyistä tiukempaa kielitaidon osoittamista.": {
-        "externalId": "q-kielitaito",
+    "Sosiaalihuollon ammattilaisilla tulee olla nykyistä enemmän harkintavaltaa asiakkaan palveluista päätettäessä, vaikka se vähentäisi hyvinvointialueiden mahdollisuuksia ohjata kustannuksia.": {
+        "externalId": "q-ammatillinen-harkintavalta",
         "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.7"
     },
-    "Avohuollon tukitoimista päättämisen tulee kuulua aina lapsen asioista vastaavalle sosiaalityöntekijälle.": {
-        "externalId": "q-avohuollon-tukitoimet",
+    "Lapsia tulee ohjata nykyistä useammin lastensuojelun sijasta sosiaalihuollon palveluihin.": {
+        "externalId": "q-lastensuojelusta-sosiaalihuoltoon",
         "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.8"
     },
-    "Kiireellisen sijoituksen enimmäiskestoa ei tule lyhentää nykyisestä.": {
-        "externalId": "q-kiireellinen-sijoitus",
+    "Alle 15-vuotias rikoksesta epäilty tulee voida ottaa poliisin säilöön enintään 72 tunniksi esitutkinnan turvaamiseksi.": {
+        "externalId": "q-alle15-sailoonotto",
         "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.9"
     },
-    "Lastensuojelun henkilöstöä tulee lisätä, vaikka se kasvattaisi hyvinvointialueiden kustannuksia.": {
-        "externalId": "q-lastensuojelun-henkilosto",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.10"
-    },
-    "Korkeakoulututkintojen tulee säilyä maksuttomina kaikille opiskelijoille.": {
-        "externalId": "q-maksuton-korkeakoulutus",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.11"
-    },
-    "Aikuiskoulutustuelle tulee luoda uusi korvaava tukimuoto.": {
-        "externalId": "q-aikuiskoulutustuki",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.12"
-    },
-    "Työnantajien tulee osallistua nykyistä enemmän työntekijöiden täydennyskoulutuksen rahoittamiseen.": {
-        "externalId": "q-taydennyskoulutus",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.13"
-    },
-    "Valtion tulee tarvittaessa nostaa veroja sosiaalipalvelujen turvaamiseksi.": {
-        "externalId": "q-verot-palveluihin",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.14"
-    },
-    "Hyvinvointialueiden säästötavoitteita tulee keventää sosiaalipalvelujen turvaamiseksi.": {
-        "externalId": "q-hyvinvointialueiden-saastot",
-        "infoColumn": "Vapaaehtoiset perustelut äänestäjälle.15"
-    },
+
+    # Taustakysymykset
     "Kotikunta": {
         "externalId": "q-kotikunta",
         "infoColumn": None
@@ -123,9 +101,9 @@ QUESTION_MAP = {
         "infoColumn": None
     },
     "Koulutus": {
-    "externalId": "q-koulutus",
-    "infoColumn": None
-},
+        "externalId": "q-koulutus",
+        "infoColumn": None
+    },
     "Esittely": {
         "externalId": "q-esittely",
         "infoColumn": None
@@ -137,9 +115,12 @@ QUESTION_MAP = {
     "Ikä:HUOM! Ikäsi vaalipäivänä 18.4.2027": {
         "externalId": "q-ika",
         "infoColumn": None
+    },
+    "Vaaliteemat": {
+        "externalId": "q-vaaliteemat",
+        "infoColumn": None
     }
 }
-
 
 def clean_text(value):
     if pd.isna(value):
@@ -297,7 +278,7 @@ for _, row in df.iterrows():
         if question_column not in row.index:
             continue
 
-        if question_column == "Ikä":
+        if config["externalId"] == "q-ika":
             answer_value = None if pd.isna(row[question_column]) else int(row[question_column])
         else:
             answer_value = clean_answer_value(row[question_column])
