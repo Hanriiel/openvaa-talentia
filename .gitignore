@@ -19,9 +19,12 @@ certs/
 
 localstack-data/
 
+test-results/
+
 scripts/webropol/.env
 scripts/webropol/Eduskuntavaalit_Perusraportti.csv
 scripts/webropol/import-data/candidates_import.json
+scripts/webropol/candidates_import.json
 
 # Local database dumps
 *.dump
