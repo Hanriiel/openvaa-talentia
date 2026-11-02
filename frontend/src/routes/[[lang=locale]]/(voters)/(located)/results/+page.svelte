@@ -264,7 +264,7 @@ The nominations applicable to these elections and constituencies are shown. Thes
         {#if activeEntityType}
           {#if activeMatches}
             {#key activeMatches}
-              <h3 class="mx-10 my-lg text-xl">
+              <h2 class="mx-10 my-lg text-xl">
                 {$t(`results.${activeEntityType}.numShown`, { numShown: activeMatches.length })}
                 {#if $constituenciesSelectable}
                   <span class="font-normal">
@@ -272,7 +272,7 @@ The nominations applicable to these elections and constituencies are shown. Thes
                     {activeElection.getApplicableConstituency($constituencies)?.name || '—'}
                   </span>
                 {/if}
-              </h3>
+              </h2>
               <EntityListControls
                 entities={activeMatches}
                 onUpdate={(results) => (filteredEntities = results)}

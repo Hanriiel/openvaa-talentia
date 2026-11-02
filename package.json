@@ -30,6 +30,7 @@
     "docs:dev": "yarn workspace @openvaa/docs dev"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
     "@faker-js/faker": "^8.4.1",
     "@openvaa/shared-config": "workspace:^",
     "@playwright/test": "^1.49.1",

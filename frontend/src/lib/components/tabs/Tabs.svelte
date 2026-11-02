@@ -39,7 +39,7 @@ Show a tab title bar that can be used to switch between different tabs.
   }
 </script>
 
-<ul {...concatClass($$restProps, 'flex items-center justify-start bg-base-300 px-0 py-8 overflow-auto')}>
+<ul role="tablist" {...concatClass($$restProps, 'flex items-center justify-start bg-base-300 px-0 py-8 overflow-auto')}>
   {#each tabs as tab, index}
     <li
       class="btn btn-outline m-0 h-[2.2rem] min-h-[2.2rem] w-auto flex-grow truncate rounded-sm px-12 text-md font-bold
