@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-require-imports
-const aws = require('@aws-sdk/client-ses');
+const aws = require('@aws-sdk/client-sesv2');
 
 export default ({ env }) => {
   const isDev = env('NODE_ENV') === 'development';
@@ -20,16 +20,15 @@ export default ({ env }) => {
         provider: 'nodemailer',
         providerOptions: {
           SES: {
-            ses: new aws.SES({
+            sesClient: new aws.SESv2Client({
               endpoint: env('LOCALSTACK_ENDPOINT'),
-              apiVersion: '2010-12-01',
               region: env('AWS_SES_REGION'),
               credentials: {
                 accessKeyId: env('AWS_SES_ACCESS_KEY_ID'),
                 secretAccessKey: env('AWS_SES_SECRET_ACCESS_KEY')
               }
             }),
-            aws
+            SendEmailCommand: aws.SendEmailCommand
           },
           // max 14 messages per second to comply with AWS SES
           sendingRate: 14
