@@ -335,6 +335,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-sdk/client-sesv2@npm:^3.1162.0":
+  version: 3.1162.0
+  resolution: "@aws-sdk/client-sesv2@npm:3.1162.0"
+  dependencies:
+    "@aws-sdk/core": "npm:^3.980.0"
+    "@aws-sdk/credential-provider-node": "npm:^3.972.93"
+    "@aws-sdk/signature-v4-multi-region": "npm:^3.996.51"
+    "@aws-sdk/types": "npm:^3.975.0"
+    "@smithy/core": "npm:^3.38.0"
+    "@smithy/fetch-http-handler": "npm:^5.8.0"
+    "@smithy/node-http-handler": "npm:^4.14.0"
+    "@smithy/types": "npm:^4.19.0"
+    tslib: "npm:^2.6.2"
+  checksum: 10c0/ea318e0c65638f5ef56f39f1981cc327e2f13a03766e322dcc022ab88a6500f09cfd7d761e587d5bb401486626a4b6965312442109b43cfe1ff0ec7435f63fb5
+  languageName: node
+  linkType: hard
+
 "@aws-sdk/client-sso@npm:3.734.0":
   version: 3.734.0
   resolution: "@aws-sdk/client-sso@npm:3.734.0"
@@ -551,7 +568,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/credential-provider-node@npm:^3.972.29":
+"@aws-sdk/credential-provider-node@npm:^3.972.29, @aws-sdk/credential-provider-node@npm:^3.972.93":
   version: 3.972.93
   resolution: "@aws-sdk/credential-provider-node@npm:3.972.93"
   dependencies:
@@ -5874,6 +5891,7 @@ __metadata:
   resolution: "@openvaa/strapi@workspace:backend/vaa-strapi"
   dependencies:
     "@aws-sdk/client-ses": "npm:^3.741.0"
+    "@aws-sdk/client-sesv2": "npm:^3.1162.0"
     "@babel/core": "npm:^7.26.0"
     "@babel/plugin-transform-modules-commonjs": "npm:^7.26.3"
     "@faker-js/faker": "npm:^8.4.1"
