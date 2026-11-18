@@ -7,7 +7,7 @@ export const staticSettings: StaticSettings = {
   appVersion: {
     version: 1,
     requireUserDataVersion: 1,
-    source: 'https://github.com/OpenVAA/voting-advice-application'
+    source: 'https://github.com/Hanriiel/openvaa-talentia'
   },
   dataAdapter: {
     type: 'strapi',
